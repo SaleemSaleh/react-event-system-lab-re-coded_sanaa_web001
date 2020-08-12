@@ -8,9 +8,9 @@ export default class Keypad extends React.Component {
   render() {
     return (
       <div>
-        <input 
+        <input
           type="password"
-          onKeyUp={this.password} 
+          onKeyUp={this.password}
         />
       </div>
     )
